@@ -1,0 +1,45 @@
+body{
+    background-color: #ccc;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+#container{
+    background-color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 5px;
+}
+
+nav{
+    color: white;
+}
+
+h1{
+    margin-left: 40px;
+}
+
+ul{
+    position: absolute;
+    right: 35px;
+    top: 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+
+li:hover {
+    border-bottom: solid 1px yellow;
+    transition-delay: 0.3s ease;
+}
+
