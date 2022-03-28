@@ -1,45 +1,119 @@
 body{
-    background-color: #ccc;
-    padding: 5px;
-    font-family: sans-serif;
+	background-color: #ccc;
+	padding: 5px;
+	font-family: sans-serif;
 }
 
 #container{
-    background-color: black;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    bottom: 5px;
-    right: 5px;
-    border-radius: 5px;
+	background-color: black;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
+	border-radius: 5px;
 }
 
 nav{
-    color: white;
+	color: white;
 }
 
-h1{
-    margin-left: 40px;
+h2{
+	margin-left: 40px;
 }
 
-ul{
-    position: absolute;
-    right: 35px;
-    top: 0;
+#cxNav{
+	position: absolute;
+	right: 35px;
+	top: 0;
 }
 
 li{
-    list-style: none;
-    display: inline-block;
-    padding: 10px;
-    font-size: 15px;
-    text-transform: uppercase;
-
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
 }
 
-
 li:hover {
-    border-bottom: solid 1px yellow;
-    transition-delay: 0.3s ease;
+	border-bottom: solid 1px yellow;
+	transition-delay: 0.3s;
+}
+
+main{
+	display: flex;
+}
+
+.n1{
+	background-color: white;
+	width: 50%;
+	position: fixed;
+        top: 70px;
+	bottom:70px;	 
+}
+
+.n2{
+	width: 50%;
+	position: fixed;
+        top: 70px;
+	bottom:70px;
+	right: 5px;
+}
+
+section{
+	display: inline-block;
+	margin-left: 25%;
+	margin-top: 25%;
+}
+
+h1{
+	text-align: center;
+	color: #666666;
+	margin-bottom: 50px;
+}
+
+p{
+	text-align: center;
+	color: #a0a0a0;
+}
+
+input{
+	width: 300px;
+	padding: 8px;
+	border-radius: 1px;
+	border: none;
+	background-color: #d9e2e5;
+	margin: auto;
+	display: block;
+	margin-top: 7px;
+}
+
+button{
+	width: 150px;
+	padding: 10px;
+	border-radius: 20px;
+	border: none; 
+	background-color: #666666;
+	color: white;
+	text-transform: uppercase;
+	margin: 15px 0 0 28%;	 
+}
+
+// footer 
+
+.n3{
+	color: white;
+}
+
+footer{
+	color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0; 
+}
+
+footer li{
+	padding-bottom: 10px;
 }
 
